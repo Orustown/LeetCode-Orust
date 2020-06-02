@@ -1,7 +1,8 @@
 # LeetCode-Orust
 Orust的每日力扣与力扣加加
 
-- [题库链接](https://leetcode-cn.com/problemset/all/)
+1. [力扣主页](https://leetcode-cn.com/u/821218213/)
+2. [题库链接](https://leetcode-cn.com/problemset/all/)
 
 # 简单
 - [66.加一](https://leetcode-cn.com/problems/plus-one/)

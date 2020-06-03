@@ -13,6 +13,7 @@ Orust的每日力扣与力扣加加
 
 # 中等
 - [75.颜色分类](https://github.com/Liu821218213/LeetCode-Orust/blob/master/LeetCode%2B%2B/%E3%80%90Day%202%E3%80%91%202020-06-02%20-%2075.%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB%20%2315.md)
+- [837.新21点](https://github.com/Liu821218213/LeetCode-Orust/blob/master/DailyLeetCode/2020%E5%B9%B46%E6%9C%88/3%23837.%E6%96%B021%E7%82%B9.md)
 
 # 困难
 

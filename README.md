@@ -2,10 +2,7 @@
 Orust的每日力扣与力扣加加
 
 **链接直达**
-1. [力扣主页](https://leetcode-cn.com/u/821218213/)
-2. [题库链接](https://leetcode-cn.com/problemset/all/)
-3. [91alg-1 问题列表](https://github.com/leetcode-pp/91alg-1/issues)
-4. [Editor在线Markdown](https://pandao.github.io/editor.md/)
+1. [力扣主页](https://leetcode-cn.com/u/821218213/)     2. [题库链接](https://leetcode-cn.com/problemset/all/)      3. [91alg-1 问题列表](https://github.com/leetcode-pp/91alg-1/issues)      4. [Editor在线Markdown](https://pandao.github.io/editor.md/)
 
 # 简单
 - [66.加一 [数组]](https://github.com/Liu821218213/LeetCode-Orust/blob/master/LeetCode%2B%2B/%E3%80%90Day%201%E3%80%91%202020-06-01%20-%2066.%20%E5%8A%A0%E4%B8%80%20%231.md)

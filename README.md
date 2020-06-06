@@ -21,7 +21,7 @@ Orust的每日力扣与力扣加加
 
 
 # 困难
-- [128. 最长连续序列 [并查集、数组]](https://github.com/Liu821218213/LeetCode-Orust/blob/master/DailyLeetCode/2020%E5%B9%B46%E6%9C%88/6%23128.%20%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97.md)
+- [128. 最长连续序列 [并查集、数组]](https://github.com/Liu821218213/LeetCode-Orust/blob/master/DailyLeetCode/2020%E5%B9%B46%E6%9C%88/6%23128.%20%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97.md)并查集并查集并查集并查集并查集并查集并查集并查集并查集并查集并查集并查集
 
 
 # 面试题

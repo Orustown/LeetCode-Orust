@@ -1,9 +1,5 @@
 
-转自:
-
-https://blog.csdn.net/Baoli1008/article/details/48059623
-
-http://www.orangecube.net/python-time-complexity
+转自:http://www.orangecube.net/python-time-complexity
 
 Python内置方法的时间复杂度
 ================

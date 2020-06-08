@@ -17,6 +17,7 @@ Orust的每日力扣与力扣加加
 - [238. 除自身以外数组的乘积 [数组、逆向]](https://github.com/Liu821218213/LeetCode-Orust/blob/master/DailyLeetCode/2020%E5%B9%B46%E6%9C%88/4%23238.%20%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF.md)
 - [380. 常数时间插入、删除和获取随机元素 [设计、数组、哈希表]](https://github.com/Liu821218213/LeetCode-Orust/blob/master/LeetCode%2B%2B/%E3%80%90Day%206%E3%80%91%202020-06-06%20-%20380.%20%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0%20%2323.md)
 - [394. 字符串解码 [栈、深度优先搜索]](https://github.com/Liu821218213/LeetCode-Orust/blob/master/LeetCode%2B%2B/%E3%80%90Day%204%E3%80%91%202020-06-04%20-%20394.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81%20.md)
+- [430. 扁平化多级双向链表 [深度优先搜索、链表]](https://github.com/Liu821218213/LeetCode-Orust/blob/master/LeetCode%2B%2B/%E3%80%90Day%208%E3%80%91%202020-06-07%20-%20430.%20%E6%89%81%E5%B9%B3%E5%8C%96%E5%A4%9A%E7%BA%A7%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8%20%2325.md)
 - [837.新21点 [DP]](https://github.com/Liu821218213/LeetCode-Orust/blob/master/DailyLeetCode/2020%E5%B9%B46%E6%9C%88/3%23837.%E6%96%B021%E7%82%B9.md)
 - [1381.设计一个支持增量操作的栈 [栈、设计]](https://github.com/Liu821218213/LeetCode-Orust/blob/master/LeetCode%2B%2B/%E3%80%90Day%203%E3%80%91%202020-06-03%20-%201381.%20%E8%AE%BE%E8%AE%A1%E4%B8%80%E4%B8%AA%E6%94%AF%E6%8C%81%E5%A2%9E%E9%87%8F%E6%93%8D%E4%BD%9C%E7%9A%84%E6%A0%88%20%2318.md)
 

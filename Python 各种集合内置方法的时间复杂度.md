@@ -36,6 +36,10 @@ Python内置方法的时间复杂度
 |min(s), max(s)	|O(n)	| |
 |计算长度	|O(1)	|O(1)|
 
+2020/7/20补充：
+remove(value)  --> O(n)
+pop(index) --> O(n-index)
+
 
 ### 双向队列（`collections.deque`）
 

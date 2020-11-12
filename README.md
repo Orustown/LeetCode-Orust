@@ -9,5 +9,7 @@ Orust的每日力扣与力扣加加
 
 【20200831 从6月1日至今日，整三个月，6月刚入力扣，7-8月每天至少三题，其中包括官方每日一题和91算法每日一题任务，每周的周赛和双周赛，91每日一题每题都有写完整思路和分析，任务全部完成。目前做题319，简单147，中等131，困难41，总积分4089。下面做题将不再花太多精力，只作每日官方题目。开学了努力科研！】
 
+【20201112 LeetCode400题，积分5582】
+
 **链接直达**
 1. [力扣主页](https://leetcode-cn.com/u/821218213/)     2. [题库链接](https://leetcode-cn.com/problemset/all/)      3. [91alg-1 问题列表](https://github.com/leetcode-pp/91alg-1/issues)      4. [在线Markdown](http://www.atoolbox.net/Category.php?Id=28)

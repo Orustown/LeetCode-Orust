@@ -11,5 +11,7 @@ Orust的每日力扣与力扣加加
 
 【20201112 LeetCode400题，积分5582】
 
+【20201130 连续半年成就达成√】
+
 **链接直达**
 1. [力扣主页](https://leetcode-cn.com/u/821218213/)     2. [题库链接](https://leetcode-cn.com/problemset/all/)      3. [91alg-1 问题列表](https://github.com/leetcode-pp/91alg-1/issues)      4. [在线Markdown](http://www.atoolbox.net/Category.php?Id=28)

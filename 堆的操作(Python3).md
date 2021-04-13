@@ -259,4 +259,73 @@ class Solution:
 
 ```
 
+----------
+
+Java实现堆排序(大根堆)
+```java
+package Sort;
+
+import java.util.Arrays;
+
+/**
+ * @author Orust
+ * @create 2021/4/13 21:44
+ */
+public class HeapSort {
+
+    public static void main(String[] args) {
+        HeapSort Sort = new HeapSort();
+        int[] nums = {5, 1, 1, 2, 0, 0, 9, 4, 3};
+//        int[] nums = {1, 2, 3, 0, 1, 0, 0, 1, 2, 3};
+        Sort.heapSort(nums);
+        System.out.println(Arrays.toString(nums));
+    }
+
+    // 每次maxHeapify选出堆的根节点，即最大值，与数组的最后一个值交换
+    public void heapSort(int[] nums) {
+        for (int i = nums.length / 2 - 1; i >= 0; i--)
+            maxHeapify(nums, i, nums.length);
+        for (int i = nums.length - 1; i >= 0; i--) {
+            swap(nums, 0, i);
+            maxHeapify(nums, 0, i);
+        }
+    }
+
+    // 尾递归实现建堆
+    public void maxHeapify(int[] nums, int i, int len) {
+        int largest = i;  // i 需要构建堆的根节点的序号 len 当前需要排序的数组长度
+        int l = i * 2 + 1;
+        int r = i * 2 + 2;
+        if (l < len && nums[l] > nums[largest])
+            largest = l;
+        if (r < len && nums[r] > nums[largest])
+            largest = r;
+        if (largest != i) {
+            swap(nums, i, largest);
+            maxHeapify(nums, largest, len);
+        }
+    }
+
+//    // 循环实现建堆
+//    public static void maxHeapify(int[] nums, int i, int len) {
+//        int temp = nums[i];
+//        for (int k = 2 * i + 1; k < len; k = 2 * i + 1) {
+//            if (k + 1 < len && nums[k] < nums[k + 1])
+//                k++;
+//            if (temp < nums[k]) {
+//                nums[i] = nums[k];
+//                i = k;
+//            } else break;
+//        }
+//        nums[i] = temp;
+//    }
+
+    public void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+}
+
+```
 

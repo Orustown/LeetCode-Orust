@@ -71,7 +71,7 @@ DP[i-1][j]与DP[i][j-1]分别是两个矩形的面积，加上当前的值ａ[i]
 这只是针对插入一个单词而言，如果对应的题目中的单词长度均为`p`，字符种类数为`q`，
 则最坏情况下建树的时间和空间花费均是`O(q^p)`，此时单词总数为`count = q^(p-1)`。
 
-### 代码
+### Python3代码
 ```python3
 class TrieNode:
     def __init__(self):
@@ -133,3 +133,56 @@ class Trie:
 
 ```
 
+
+
+### Java代码
+```java
+package Trie;
+
+/**
+ * @author Orust
+ * @create 2021/4/14 13:52
+ */
+public class Trie {
+    static class TrieNode {
+        TrieNode[] children = new TrieNode[26];
+        boolean is_word = false;
+    }
+
+    TrieNode root;
+
+    public Trie() {
+        root = new TrieNode();
+    }
+
+    public void insert(String word) {
+        TrieNode node = root;
+        for (int i = 0; i < word.length(); i++) {
+            int idx = word.charAt(i) - 'a';
+            if (node.children[idx] == null) node.children[idx] = new TrieNode();
+            node = node.children[idx];
+        }
+        node.is_word = true;
+    }
+
+    public boolean search(String word) {
+        TrieNode node = root;
+        for (int i = 0; i < word.length(); i++) {
+            int idx = word.charAt(i) - 'a';
+            if (node.children[idx] == null) return false;
+            node = node.children[idx];
+        }
+        return node.is_word;
+    }
+
+    public boolean startsWith(String prefix) {
+        TrieNode node = root;
+        for (int i = 0; i < prefix.length(); i++) {
+            int idx = prefix.charAt(i) - 'a';
+            if (node.children[idx] == null) return false;
+            node = node.children[idx];
+        }
+        return true;
+    }
+}
+```

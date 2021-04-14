@@ -285,7 +285,7 @@ public class HeapSort {
     public void heapSort(int[] nums) {
         for (int i = nums.length / 2 - 1; i >= 0; i--)  // 初始化建堆，O(n)，自底向上交换
             maxHeapify(nums, i, nums.length);
-        for (int i = nums.length - 1; i >= 0; i--) {  // 初始化后每次重建堆O(nlogn)，循环n次，总时间复杂度是O(nlogn)，自顶向下交换
+        for (int i = nums.length - 1; i >= 0; i--) {  // 初始化后每次重建堆O(logn)，循环n次，总时间复杂度是O(nlogn)，自顶向下交换
             swap(nums, 0, i);
             maxHeapify(nums, 0, i);
         }

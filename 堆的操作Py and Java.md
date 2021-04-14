@@ -291,22 +291,39 @@ public class HeapSort {
         }
     }
 
-    // 尾递归实现建堆
+//    // 尾递归实现建堆
+//    public void maxHeapify(int[] nums, int i, int len) {
+//        int largest = i;  // i 需要构建堆的根节点的序号 len 当前需要排序的数组长度
+//        int l = i * 2 + 1;
+//        int r = i * 2 + 2;
+//        if (l < len && nums[l] > nums[largest])
+//            largest = l;
+//        if (r < len && nums[r] > nums[largest])
+//            largest = r;
+//        if (largest != i) {
+//            swap(nums, i, largest);
+//            maxHeapify(nums, largest, len);
+//        }
+//    }
+
+    // 循环实现建堆1
     public void maxHeapify(int[] nums, int i, int len) {
-        int largest = i;  // i 需要构建堆的根节点的序号 len 当前需要排序的数组长度
-        int l = i * 2 + 1;
-        int r = i * 2 + 2;
-        if (l < len && nums[l] > nums[largest])
-            largest = l;
-        if (r < len && nums[r] > nums[largest])
-            largest = r;
-        if (largest != i) {
+        while(true){
+            int largest = i;  // i 需要构建堆的根节点的序号 len 当前需要排序的数组长度
+            int l = i * 2 + 1;
+            int r = i * 2 + 2;
+            if (l < len && nums[l] > nums[largest])
+                largest = l;
+            if (r < len && nums[r] > nums[largest])
+                largest = r;
+            if (largest == i)
+                return;
             swap(nums, i, largest);
-            maxHeapify(nums, largest, len);
+            i = largest;
         }
     }
 
-//    // 循环实现建堆
+//    // 循环实现建堆2
 //    public static void maxHeapify(int[] nums, int i, int len) {
 //        int temp = nums[i];
 //        for (int k = 2 * i + 1; k < len; k = 2 * i + 1) {
@@ -326,6 +343,7 @@ public class HeapSort {
         nums[j] = temp;
     }
 }
+
 
 ```
 
